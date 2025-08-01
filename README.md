@@ -1,2 +1,2 @@
 # mover-js
-Projeto mover para aplicar os conceitos de dom e array
+O objetivo deste projeto é aplicar os conceitos em JavaScript de DOM, funções, arrays além de html e css.
