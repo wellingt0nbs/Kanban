@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    height: 500px;
+    width: 300px;
+    border: solid 4px black;
+}
+
+.cursos{
+    background-color: rgb(182, 182, 182);
+    padding: 10px;
+    border-radius: 15px;
+    width: 70%;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid grey;
+}
+
+.cursos:hover{
+    background-color: rgb(159, 159, 159);
+}
+
+button{
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    border-radius: 25px;
+    padding: 15%;
+    margin: 5%;
+}
+
+#botaoE{
+    background-color: red;
+}
+
+.selecionado{
+    background-color: rgb(101, 101, 101);
+    border: 3px solid rgb(54, 54, 54);
+    box-shadow: 2px 2px 2px rgb(73, 73, 73);
+
+}
+
+section{
+    background-color: #FFFFF0;
+}
