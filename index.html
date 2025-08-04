@@ -3,31 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passa para direita</title>
+    <title>Kanban</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
 
-    <section class="esquerdo">
-        <div class="cursos">curso1</div>
-        <div class="cursos">curso2</div>
-        <div class="cursos">curso3</div>
-        <div class="cursos">curso4</div>
-        <div class="cursos">curso5</div>
-        <div class="cursos">curso6</div>
+    <section class="comecar">
+        <h2 class="titulo">COMECAR</h2>
+
+        <div class="conteudo paiComecar">
+            <div class="cursos comecar">curso1</div>
+            <div class="cursos comecar">curso2</div>
+            <div class="cursos comecar">curso3</div>
+            <div class="cursos comecar">curso4</div>
+            <div class="cursos comecar">curso5</div>
+            <div class="cursos comecar">curso6</div>
+        </div>
+
+        <input type="text" name="novaTarefa" id="tarefa" placeholder="Digite uma tarefa...">
+        <input type="submit" value="enviar" id="btnTarefa">
     </section>
     
-    <div>
-        <button id="botao">Mover &nbsp &#10145 </button>
-        <button id="botaoE"> &#11013 &nbsp Mover </button>
+    <div class="botoes">
+        <button class="vaiAndamento" id="segueAndamento">Seguir &nbsp &#10145 </button>
+        <button class="voltaComecar btnVolta" id="retornaComecar"> &#11013 &nbsp Voltar </button>
     </div>
     
 
-    <section class="direito">
+    <section class="andamento">
+        <h2 class="titulo">ANDAMENTO</h2>
+        <div class="conteudo paiAndamento">
+        
+        </div>
 
     </section>
+
+    <div class="botoes">
+        <button class="vaiConcluido" id="segueConcluido">Seguir &nbsp &#10145 </button>
+        <button class="voltaAndamento btnVolta" id="retornaAndamento"> &#11013 &nbsp Voltar</button>
+    </div>
+        
+
+    <section class="concluido">
+        <h2 class="titulo">CONCLUÍDO</h2>
+        <div class="conteudo paiConcluido">
+            
+        </div>
+
+    </section>
+
+    <button class="btnApagar">Apagar</button>
 
 </body>
 <script src="./script.js"></script>
